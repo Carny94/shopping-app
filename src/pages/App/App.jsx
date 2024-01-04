@@ -12,7 +12,7 @@ import PortfolioPage from '../PortfolioPage/PortfolioPage';
 
 
 export default function App() {
-  const [user, setUser] = useState({});
+  const [user, setUser] = useState(null);
   return (
     <main className="App">
       {user ?
