@@ -5,6 +5,7 @@ import NavBar from '../../components/NavBar/NavBar';
 import AuthPage from '../AuthPage/Authpage';
 import HomePage from '../HomePage/HomePage';
 import ServicesPage from '../ServicesPage/ServicesPage';
+import PortfolioPage from '../PortfolioPage/PortfolioPage';
 
 
 
@@ -20,6 +21,7 @@ export default function App() {
       <Routes>
         <Route path="/" element= {<HomePage />} />
         <Route path="/services" element= {<ServicesPage />} />
+        <Route path="/portfolio" element= {<PortfolioPage />} />
       </Routes>
       </>
       :
